@@ -4,10 +4,10 @@ body{
 }
 .form-container{
   background-color: white;
-  border-radius: 2px;
+  border-radius: 10px;
   padding: 5px 2px;
   width: 50vw;
-
+  transform: translate(50%, 50%); /* This is to center the div so it can appear centered on web pages */
 }
 
 label{
