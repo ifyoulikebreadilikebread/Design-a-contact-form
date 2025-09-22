@@ -1,0 +1,45 @@
+body{
+  text-align: center;
+  background-color: skyblue;
+}
+.form-container{
+  background-color: white;
+  border-radius: 2px;
+  padding: 5px 2px;
+  width: 50vw;
+
+}
+
+label{
+  margin: 5px;
+  color: indigo;
+  display: block;
+}
+
+input{
+  width: 200px;
+  padding: 0px 2px;
+  margin-bottom: 10px;
+}
+
+textarea{
+  width: 250px;
+  padding: 0px 2px;
+  margin-bottom: 10px;
+}
+
+button{
+  background-color: pink;
+  font-size: 20px;
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 10px; /* Gives it a little extra spacing with the container at the bottom */
+  padding: 0px 2px; /* keeps the padding consistency with the other paddings that are applied to the other elements in this css */
+  margin-left: auto; /* This helps center out the submit button */
+  margin-right: auto; /* This helps center out the submit button */
+}
+
+button:hover{
+  background-color: green;
+  color: yellow;
+}
